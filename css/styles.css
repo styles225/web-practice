@@ -1,0 +1,93 @@
+/*---------------------------------------------
+---------------- reset ---------------------*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+/*---------------------------------------------
+---------------- Global ---------------------*/
+body {
+	line-height: 1.3em;
+}
+a {
+	text-decoration: none;
+}
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	margin: 20px 0;
+}
+
+div div div  {
+	background-color: #e3eaf4;
+	margin: 20px auto;
+}
+
+.wrap {
+	max-width: 1000px;
+	width: 61.8%;
+}
+
+.wrap, .outside {
+	margin: 20px auto;
+	border: 1px solid #e0e0e0;
+	padding: 20px;
+}
+
+.inline {
+	display: inline;
+}
+
+.block {
+	display: block;
+	overflow: auto; /*needed for "clearfix" float left at bottom of page*/
+}
+
+.table {
+	display: table;
+	background-color: #e0e0e0;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-item {
+	border: 1px solid black;
+}
+
+.flexwrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flexcol {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.gridwrap {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.none {
+	display: none;
+}
+
+.floatleft, .floatright {
+	padding: 10px;
+	background-color: #444;
+	height: 100px;
+	margin: 0 5px;
+}
+.floatleft {
+	float: left;
+}
+.floatright {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
