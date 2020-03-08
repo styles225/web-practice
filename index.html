@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
+<head>
 
-        <!--Charset, IE=Edge, Viewport, Title-->
-        <meta http-equiv="content-type" content="text/html; charset=UTF8" />
-        <meta http-equiv="x-ua-compatible" content="ie-edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <title>Title Here</title>
+    <!--Charset, IE=Edge, Viewport, Title-->
+    <meta http-equiv="content-type" content="text/html; charset=UTF8">
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title Here</title>
 
-        <!--JQuery, DataLayer, GTM & Marketing Tags-->
+    <!--JQuery, DataLayer, GTM & Marketing Tags-->
 
-        <!--SERP Description-->
-        <meta name="description" content="This is what you will see on the front page of Google, etc." />
+    <!--SERP Description-->
+    <meta name="description" content="This is what you will see on the front page of Google, etc.">
 
-        <!--Favicons here-->
-        <!--follow this here: https://realfavicongenerator.net-->
-        
-        <!--External stylesheets and JavaScript-->
-        <link rel="stylesheet" href="styles.css" />
-        
-        <!--Opengraph & Twitter Cards-->
+    <!--Favicons here-->
+    <!--follow this here: https://realfavicongenerator.net-->
+
+    <!--External stylesheets and JavaScript-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/3ed0a82ad4.js" crossorigin="anonymous"></script>
+
+
+    <!--Opengraph & Twitter Cards-->
         <!--https://css-tricks.com/essential-meta-tags-social-media/
         https://blog.kissmetrics.com/open-graph-meta-tags/
         https://megatags.co/#generate-tags
@@ -32,6 +35,7 @@
         <!--Header & Nav-->
         <div class="grid-wrap">
             <header>
+                <h1>Header</h1>
                 <nav>
                     <a href="#">About</a>
                     <a href="#">Nope</a>
@@ -40,63 +44,77 @@
                     <a href="#">We're Here</a>
                     <a href="#">Holla</a>
                 </nav>
-                <h1>Header</h1>
-            </header>
+                <div class="clearfix"></div>
+                <div class="content-container">
+                    <div class="carousel-container">
+                        <i class="fas fa-arrow-left" id="prevBtn"></i>
+                        <i class="fas fa-arrow-right" id="nextBtn"></i>
+                        <div class="carousel-slide">
+                            <img src ="img/img-5.jpeg" id="last-clone">
+                            <img src ="img/img-1.jpeg">
+                            <img src ="img/img-2.jpeg">
+                            <img src ="img/img-3.jpeg">
+                            <img src ="img/img-4.jpeg">
+                            <img src ="img/img-5.jpeg">
+                            <img src ="img/img-1.jpeg" id="first-clone">
+                        </div>
+                    </div>
+                </header>
 
-            <!--Left-->
-            <aside>
-                <h1>Aside</h1>
-            </aside>
+                <!--Left-->
+                <aside>
+                    <h1>Aside</h1>
+                </aside>
 
-            <!-- Main -->
-            <main>
-                <h1>Main</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </main>
+                <!-- Main -->
+                <main>
+                    <h1>Main</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </main>
 
-            <!-- Section -->
-            <section>
-                <form action="" method="post" name="myform">
-                    <label for="name">First Name <input type="text" placeholder="Jarrick" id="name" name="name"></label>
-                    <label for="age">Age <input type="number" name="age" id="age"></label>
-                    <label for="dob">Date of Birth <input type="number" name="dob" id="dob"></label>
-                    <div class="submit">Submit</div>
-            </section>
+                <!-- Section -->
+                <section>
+                    <form action="" method="post" name="myform">
+                        <label for="name">First Name <input type="text" placeholder="Jarrick" id="name" name="name"></label>
+                        <label for="age">Age <input type="number" name="age" id="age"></label>
+                        <label for="dob">Date of Birth <input type="number" name="dob" id="dob"></label>
+                        <div class="submit">Submit</div>
+                    </section>
 
-            <!-- Right Aside -->
-            <aside>
-                <h1>Aside</h1>
-            </aside>
+                    <!-- Right Aside -->
+                    <aside>
+                        <h1>Aside</h1>
+                    </aside>
 
-            <!--Footer-->
-            <footer>
-                <h1>Footer</h1>
-            </footer>
-        </div>
-    </body>
-    <script src="game.js"></script>
+                    <!--Footer-->
+                    <footer>
+                        <h1>Footer</h1>
+                    </footer>
+                </div>
+            </body>
 
-</html>
+    <script src="scripts/app.js"></script>
+            </html>
